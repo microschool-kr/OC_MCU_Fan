@@ -1,0 +1,18 @@
+flowchart TD
+    A[["시작"]] --> B["핀 모드 설정"]
+    B --> C["시리얼 통신 시작"]
+    C --> D["가변저항 값 읽기"]
+    D --> E["가변저항 값을 팬 속도로 변환"]
+    E --> F["시리얼 모니터에 값 출력"]
+    F --> G["팬 속도 제어"]
+    G --> H["0.1초 대기"]
+    H --> D
+
+    style A fill:#E1BEE7,stroke:#FFFFFF,stroke-width:2px
+    style B fill:#BBDEFB,stroke:#FFFFFF,stroke-width:2px
+    style C fill:#BBDEFB,stroke:#FFFFFF,stroke-width:2px
+    style D fill:#FFF9C4,stroke:#FFFFFF,stroke-width:2px
+    style E fill:#C8E6C9,stroke:#FFFFFF,stroke-width:2px
+    style F fill:#FFE0B2,stroke:#FFFFFF,stroke-width:2px
+    style G fill:#FFCDD2,stroke:#FFFFFF,stroke-width:2px
+    style H fill:#F8BBD0,stroke:#FFFFFF,stroke-width:2px
