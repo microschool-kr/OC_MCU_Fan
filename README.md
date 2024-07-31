@@ -7,10 +7,11 @@
 ## 하드웨어 
 
 - 아두이노 우노  
-- SSD1306 OLED
-- DS3231 RTC module
-- CR2032 코인베터리
-- M-M 점퍼선 8개 
+- 5V 모터 
+- 다이오드 : 1N5817
+- NPN 트렌지스터: 2N3904
+- 가변저항 10k
+- M-M 점퍼선 6개 
 - USB 2.0 케이블 Type A/B
 
 
@@ -18,21 +19,13 @@
 
 ### 선 작업 
 #### 회로도
-![img](/ppt/img/RTC_Arduino_fritzing.png)
+![img](/img/schematic_fritzing.png)
 #### 핀 정보
-| [Arduino UNO GPIO](https://docs.arduino.cc/resources/pinouts/A000066-full-pinout.pdf) | DS3231 |
+| [Arduino UNO GPIO](https://docs.arduino.cc/resources/pinouts/A000066-full-pinout.pdf) | NPN 트렌지스터 |
 |-----------|------|
-|   D19     | SCL  |
-|   D18     | SDA  |
-|   5V      | VCC  |
-|   GND     | GND  |
-
-| [Arduino UNO GPIO](https://docs.arduino.cc/resources/pinouts/A000066-full-pinout.pdf) | SSD1306 |
-|-----------|------|
-|   D19     | SCL  |
-|   D18     | SDA  |
-|   5V      | VCC  |
-|   GND     | GND  |
+|   7     | Base  |
+|   5V      | Collector  |
+|   GND     | Emitter  |
 
 ## 순서도
 ![flowchart](/img/Fan-2024-07-09-063658.png)
