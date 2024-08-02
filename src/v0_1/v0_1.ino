@@ -16,7 +16,7 @@ void loop() {
    int potValue = analogRead(potPin);
 
    // 팬 속도를 125~255로 변환
-   int fanSpeed = map(potValue, 0, 1023, 125, 255);
+   int fanSpeed = map(potValue, 0, 1023, 0, 255);
 
    // 팬 속도를 시리얼 모니터에 출력
    Serial.print("Potentiometer: ");
