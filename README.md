@@ -4,8 +4,6 @@
 
 ![img](./img/3_Fan_picture.jpg)
 
-[![YouTube Channel Views](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/qRE46Ob5DUo?si=pvee_6tsJ1teffQ-)
-
 ## 📝 프로젝트 소개
 이 프로젝트는 아두이노와 DC 모터를 활용하여 가변저항으로 속도를 조절할 수 있는 선풍기를 만드는 과정을 설명합니다. 3단계가 아닌 104단계로 세밀하게 속도를 제어할 수 있는 나만의 선풍기를 만들어볼 수 있습니다.
 
